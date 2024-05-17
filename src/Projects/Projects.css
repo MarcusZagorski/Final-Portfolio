@@ -1,0 +1,78 @@
+.projects-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88%;
+  border-radius: 40px;
+  margin: 22rem auto 0 auto;
+  height: 30rem;
+  background: url(/projectsbanner.png);
+  background-size: cover;
+  background-position-y: 24%;
+}
+
+.projects-banner p {
+  font-size: 6.6rem;
+  font-weight: 700;
+  color: white;
+}
+
+.projects-banner p,
+.project-title,
+.project-summary,
+.project-technologies {
+  color: white;
+}
+
+.projects {
+  width: 80%;
+  height: 52rem;
+  background: var(--primary-font-color);
+  margin: 4rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 26rem);
+  padding: 0 4rem;
+  gap: 22rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  border-radius: 12px;
+}
+
+.project-container {
+  background: red;
+  width: 100%;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-rows: 6rem 26rem 9rem 2rem auto;
+  backdrop-filter: blur(4px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 0 2rem;
+}
+
+.project-title {
+  align-self: center;
+  justify-self: center;
+  font-size: 1.6rem;
+}
+
+.project-img {
+  width: inherit;
+  align-self: center;
+}
+
+.project-technologies {
+}
+
+div button:nth-child(1) {
+  margin-right: 1rem;
+}
+
+button {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.6rem 0.8rem;
+  border-radius: 8px;
+  border: none;
+}
