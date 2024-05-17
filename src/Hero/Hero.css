@@ -1,7 +1,6 @@
 .hero {
   width: 80%;
   margin: 0 auto;
-  height: max-content;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 12rem;
@@ -9,13 +8,16 @@
 
 .hero-text {
   padding-top: 3.6rem;
-  line-height: 1.1;
+}
+
+.hero-text p:nth-child(1),
+.hero-text p:nth-child(2) {
+  color: var(--primary-font-color);
 }
 
 .hero-text p:nth-child(1) {
   font-size: 6.6rem;
   font-weight: 800;
-  color: var(--primary-font-color);
 }
 
 p:nth-child(1) span {
@@ -29,7 +31,6 @@ p:nth-child(1) span {
 .hero-text p:nth-child(2) {
   font-size: 3.4rem;
   font-weight: 600;
-  color: var(--primary-font-color);
 }
 
 p:nth-child(2) span {

@@ -1,7 +1,7 @@
 import "./Hero.css";
 
 const Hero = () => {
-  return (
+  const hero = (
     <main className="hero">
       <div className="hero-text">
         <p>
@@ -20,6 +20,8 @@ const Hero = () => {
       <img src="/programmer.svg" className="programmer-svg" />
     </main>
   );
+
+  return hero;
 };
 
 export default Hero;
