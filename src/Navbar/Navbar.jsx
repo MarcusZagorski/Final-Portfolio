@@ -49,7 +49,9 @@ const Navbar = ({
         {nav("Home", homeInView && !aboutInView, scrollToHome)}
         {nav("About", aboutInView, scrollToAbout)}
         {nav("Projects", projectInView && !aboutInView, scrollToProjects)}
-        <li>Download CV</li>
+        <motion.li whileHover={{ backgroundColor: "#364fc7" }}>
+          Download CV
+        </motion.li>
       </ul>
     </nav>
   );

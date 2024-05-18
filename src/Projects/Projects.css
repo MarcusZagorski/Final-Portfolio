@@ -32,14 +32,13 @@
   display: grid;
   grid-template-columns: repeat(4, 26rem);
   padding: 0 4rem;
-  gap: 22rem;
+  gap: 8rem;
   overflow-x: scroll;
   overflow-y: hidden;
   border-radius: 12px;
 }
 
 .project-container {
-  background: red;
   width: 100%;
   margin: 2rem 0;
   display: grid;
@@ -60,6 +59,12 @@
 .project-img {
   width: inherit;
   align-self: center;
+  border-radius: 8px;
+}
+
+.project-summary {
+  border-top: 1px solid rgba(255, 255, 255, 0.125);
+  padding-top: 0.6rem;
 }
 
 div button:nth-child(1) {
