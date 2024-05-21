@@ -23,7 +23,7 @@ const Projects = ({ scrollToProjects }) => {
       title: "Chat Server App",
       image: "/mzagorski-chat-server.netlify.app_.png",
       summary:
-        "Developed a YouTube app that enables users to add videos to a database. Additionally, I enhanced the functionality by offering users the option to customise video titles or remain using the default YouTube title.",
+        "Developed a Chat server application that allows users to send messages back and forth, and delete messages at their own leisure via a server hosted on Glitch. All messages come with an automatic time stamp, alongside an aesthetically pleasing design.",
       technologies: "Technologies used: ReactJS, NodeJS",
       liveView: "https://mzagorski-chat-server.netlify.app/",
       github: "https://github.com/MarcusZagorski/react-chat-server",
@@ -41,7 +41,7 @@ const Projects = ({ scrollToProjects }) => {
       title: "Cakes-Co Website",
       image: "/mzag-cakesco.netlify.app_.png",
       summary:
-        "Developed a YouTube app that enables users to add videos to a database. Additionally, I enhanced the functionality by offering users the option to customise video titles or remain using the default YouTube title.",
+        "For this project, I was tasked with creating a responsive webpage for a cake company. They provided me with a wireframe, and my task was to design a mockup page using my Figma knowledge.",
       technologies: "Technologies used: HTML, CSS",
       liveView: "https://mzag-cakesco.netlify.app/",
       github:
