@@ -50,7 +50,13 @@ const Navbar = ({
         {nav("About", aboutInView, scrollToAbout)}
         {nav("Projects", projectInView && !aboutInView, scrollToProjects)}
         <motion.li whileHover={{ backgroundColor: "#364fc7" }}>
-          Download CV
+          <a
+            href="/MarcusZagorskiCV.pdf"
+            style={{ color: "white", textDecoration: "none" }}
+            target="_blank"
+          >
+            View CV
+          </a>
         </motion.li>
       </ul>
     </nav>
